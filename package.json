@@ -4,6 +4,7 @@
   "description": "Two-line element set (TLE) data format parser",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
+  "types": "tle.d.ts",
   "keywords": [
     "tle",
     "orbit",
@@ -26,12 +27,12 @@
     "esbuild": "0.17.17",
     "mocha": "^5.2.0"
   },
-  "homepage": "https://github.com/jhermsmeier/node-tle",
+  "homepage": "https://github.com/colemars/web-tle",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhermsmeier/node-tle.git"
+    "url": "git+https://github.com/colemars/web-tle.git"
   },
   "bugs": {
-    "url": "https://github.com/jhermsmeier/node-tle/issues"
+    "url": "https://github.com/colemars/web-tle/issues"
   }
 }
