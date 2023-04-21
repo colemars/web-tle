@@ -1,5 +1,5 @@
 {
-  "name": "tle",
+  "name": "web-tle",
   "version": "3.0.0",
   "description": "Two-line element set (TLE) data format parser",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
@@ -16,12 +16,14 @@
     "norad",
     "space"
   ],
-  "main": "lib/tle.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "browserify src/tle.js -o bundle.js && esbuild bundle.js --bundle --outfile=dist/main.js"
   },
-  "dependencies": {},
   "devDependencies": {
+    "browserify": "^17.0.0",
+    "esbuild": "0.17.17",
     "mocha": "^5.2.0"
   },
   "homepage": "https://github.com/jhermsmeier/node-tle",
