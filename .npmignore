@@ -5,3 +5,5 @@ test
 doc
 example
 benchmark
+dist/stream.js
+dist/tle.js
