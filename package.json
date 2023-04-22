@@ -16,14 +16,16 @@
     "norad",
     "space"
   ],
-  "main": "dist/tle.browser.js",
+  "main": "dist/tle.bundle.js",
   "types": "dist/tle.d.ts",
   "scripts": {
     "test": "mocha",
-    "build": "browserify dist/tle.js -o dist/tle.browser.js"
+    "build": "tsc && node esbuild.config.js"
   },
   "dependencies": {
-    "browserify": "^17.0.0"
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "browserify": "^17.0.0",
+    "esbuild": "^0.17.17"
   },
   "devDependencies": {
     "mocha": "^5.2.0"

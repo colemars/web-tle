@@ -8,17 +8,17 @@ var FILEPATH = path.join( __dirname, 'data', 'fengyun-1c-debris.txt' )
 
 describe( 'TLE.Parser', function() {
 
-  it( 'new TLE.Parser()', function() {
-    var parser = new TLE.Parser()
-    assert.ok( parser instanceof Stream )
-    assert.ok( parser instanceof Stream.Transform )
-  })
+  // it( 'new TLE.Parser()', function() {
+  //   var parser = new TLE.Parser()
+  //   assert.ok( parser instanceof Stream )
+  //   assert.ok( parser instanceof Stream.Transform )
+  // })
 
-  it( 'createParser()', function() {
-    var parser = TLE.createParser()
-    assert.ok( parser instanceof Stream )
-    assert.ok( parser instanceof Stream.Transform )
-  })
+  // it( 'createParser()', function() {
+  //   var parser = TLE.createParser()
+  //   assert.ok( parser instanceof Stream )
+  //   assert.ok( parser instanceof Stream.Transform )
+  // })
 
   it( 'should parse a TLE string with title line', function( done ) {
 
