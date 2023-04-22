@@ -16,7 +16,7 @@
     "norad",
     "space"
   ],
-  "main": "dist/tle.bundle.js",
+  "main": "dist/main.bundle.js",
   "types": "dist/tle.d.ts",
   "scripts": {
     "test": "mocha",

@@ -5,6 +5,6 @@ esbuild.build({
   entryPoints: ['dist/tle.js'],
   bundle: true,
   platform: 'node',
-  outfile: 'dist/tle.bundle.js',
+  outfile: 'dist/main.bundle.js',
   plugins: [NodeModulesPolyfillPlugin()],
 })
