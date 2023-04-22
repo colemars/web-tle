@@ -16,11 +16,15 @@
     "norad",
     "space"
   ],
-  "main": "lib/tle.js",
+  "main": "dist/tle.browser.js",
+  "types": "dist/tle.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "browserify dist/tle.js -o dist/tle.browser.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "browserify": "^17.0.0"
+  },
   "devDependencies": {
     "mocha": "^5.2.0"
   },
