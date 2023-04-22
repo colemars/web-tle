@@ -1,6 +1,6 @@
 {
-  "name": "tle",
-  "version": "3.0.0",
+  "name": "web-tle",
+  "version": "3.0.2",
   "description": "Two-line element set (TLE) data format parser",
   "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
   "license": "MIT",
@@ -30,12 +30,12 @@
   "devDependencies": {
     "mocha": "^5.2.0"
   },
-  "homepage": "https://github.com/jhermsmeier/node-tle",
+  "homepage": "https://github.com/colemars/web-tle",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhermsmeier/node-tle.git"
+    "url": "git+https://github.com/colemars/web-tle.git"
   },
   "bugs": {
-    "url": "https://github.com/jhermsmeier/node-tle/issues"
+    "url": "https://github.com/colemars/web-tle/issues"
   }
 }
