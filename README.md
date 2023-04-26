@@ -1,7 +1,7 @@
 # Two-line element set (TLE)
-[![npm](https://img.shields.io/npm/v/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
-[![npm license](https://img.shields.io/npm/l/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
-[![npm downloads](https://img.shields.io/npm/dm/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
+[![npm](https://img.shields.io/npm/v/web-tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
+[![npm license](https://img.shields.io/npm/l/web-tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
+[![npm downloads](https://img.shields.io/npm/dm/web-tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
 
 Two-line element set (TLE) data format parser, *but bundled for the browser!*
 
