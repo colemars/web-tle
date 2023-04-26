@@ -1,10 +1,9 @@
 # Two-line element set (TLE)
-[![npm](https://img.shields.io/npm/v/tle.svg?style=flat-square)](https://npmjs.com/package/tle)
-[![npm license](https://img.shields.io/npm/l/tle.svg?style=flat-square)](https://npmjs.com/package/tle)
-[![npm downloads](https://img.shields.io/npm/dm/tle.svg?style=flat-square)](https://npmjs.com/package/tle)
-[![build status](https://img.shields.io/travis/jhermsmeier/node-tle.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/node-tle)
+[![npm](https://img.shields.io/npm/v/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
+[![npm license](https://img.shields.io/npm/l/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
+[![npm downloads](https://img.shields.io/npm/dm/tle.svg?style=flat-square)](https://www.npmjs.com/package/web-tle)
 
-Two-line element set (TLE) data format parser
+Two-line element set (TLE) data format parser, *but bundled for the browser!*
 
 A two-line element set ([TLE]) is a data format used to convey sets of orbital elements that describe the orbits of Earth-orbiting satellites. A computer program called a model can use the TLE to compute the position of a satellite at a particular time. The TLE is a format specified by NORAD and used by [NORAD] and [NASA]. The TLE can be used directly by the [SGP4] model (or one of the SGP8, [SDP4], SDP8 models). Orbital elements are determined for many thousands of space objects by NORAD and are freely distributed on the Internet in the form of TLEs. A TLE consists of a title line followed by two lines of formatted text.
 
@@ -19,7 +18,7 @@ A two-line element set ([TLE]) is a data format used to convey sets of orbital e
 ## Install via [npm](https://npmjs.com/package/tle)
 
 ```sh
-$ npm install --save tle
+$ npm install --save web-tle
 ```
 
 ## Format
@@ -37,7 +36,7 @@ Some data to play around with can be found at [Celestrak](http://www.celestrak.c
 ## Usage
 
 ```js
-var TLE = require( 'tle' )
+import TLE from 'web-tle'
 ```
 
 ### Parsing a single set
